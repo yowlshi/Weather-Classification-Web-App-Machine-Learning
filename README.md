@@ -47,9 +47,70 @@ The model (`model.h5`) is a Convolutional Neural Network trained on a labeled da
 
 ---
 
-## 📦 Dependencies
+## ▶️ How to Run
 
-Install the required packages with:
+To run the app locally, follow these steps:
 
-```bash
-pip install streamlit tensorflow pillow numpy
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weather-classification-app.git
+   cd weather-classification-app
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install streamlit tensorflow pillow numpy
+   ```
+
+3. Make sure the `model.h5` file is in the same directory as `app.py`.
+
+4. Launch the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+The app will open in your default browser at `http://localhost:8501`.
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── app.py            # Main Streamlit application
+├── model.h5          # Pre-trained Keras model
+├── README.md         # Project documentation
+```
+
+---
+
+## 📷 Example Use Case
+
+Upload a weather photo and see which of the following categories it belongs to:
+
+- ☁️ Cloudy  
+- 🌧️ Rain  
+- ☀️ Sunshine  
+- 🌅 Sunrise  
+
+---
+
+## 💡 Use Cases
+
+- Automated weather classification using image input
+- Educational demonstrations of CNN-based image classification
+- Research and dataset labeling tools for weather-based projects
+
+---
+
+## 🙌 Acknowledgments
+
+Huge thanks to:
+
+- **TensorFlow** and **Keras** for their powerful deep learning libraries
+- **Streamlit** for enabling rapid development of data apps
+- Open-source contributors who helped make these tools accessible and developer-friendly
+
+```
+
+
