@@ -15,6 +15,10 @@ The **Weather Classification Web App** identifies one of four weather conditions
 
 Upload any image, and the app will classify it using a pre-trained deep learning model (`model.h5`). This tool showcases the potential of computer vision in real-world applications such as automated weather categorization and environmental monitoring.
 
+![Sample App Interface](images/output.png)
+
+> **Note:** The current model requires additional fine-tuning as predictions may not always be accurate. This is an ongoing project with room for improvement in model performance.
+
 ---
 
 ## 🚀 Features
@@ -22,7 +26,7 @@ Upload any image, and the app will classify it using a pre-trained deep learning
 - 🧠 **Deep Learning-Powered**: Built with TensorFlow and Keras.
 - 🖼️ **Image Upload**: Upload `.jpg` or `.png` weather images through a simple UI.
 - ⚙️ **Real-time Prediction**: Instantly returns the weather condition with high accuracy.
-- 💾 **Model Caching**: Fast and efficient with Streamlit’s caching mechanism.
+- 💾 **Model Caching**: Fast and efficient with Streamlit's caching mechanism.
 - ✅ **User-Friendly Interface**: Clean design with informative outputs.
 
 ---
@@ -59,7 +63,7 @@ To run the app locally, follow these steps:
 
 2. Install the required dependencies:
    ```bash
-   pip install streamlit tensorflow pillow numpy
+   pip install -r requirements.txt
    ```
 
 3. Make sure the `model.h5` file is in the same directory as `app.py`.
@@ -80,6 +84,9 @@ The app will open in your default browser at `http://localhost:8501`.
 ├── app.py            # Main Streamlit application
 ├── model.h5          # Pre-trained Keras model
 ├── README.md         # Project documentation
+├── requirements.txt  # Required dependencies
+└── images/           # Sample images and screenshots
+    └── output.png    # Sample app interface
 ```
 
 ---
@@ -103,6 +110,15 @@ Upload a weather photo and see which of the following categories it belongs to:
 
 ---
 
+## 🚧 Future Improvements
+
+- Model fine-tuning to improve accuracy and reduce misclassifications
+- Expanding the dataset to include more diverse weather conditions
+- Adding confidence scores to provide transparency in prediction reliability
+- Implementing model explainability features to understand decision factors
+
+---
+
 ## 🙌 Acknowledgments
 
 Huge thanks to:
@@ -110,7 +126,3 @@ Huge thanks to:
 - **TensorFlow** and **Keras** for their powerful deep learning libraries
 - **Streamlit** for enabling rapid development of data apps
 - Open-source contributors who helped make these tools accessible and developer-friendly
-
-```
-
-
