@@ -2,6 +2,7 @@
 
 This project is a simple yet effective web application that classifies weather conditions from images using a deep learning model built with TensorFlow and Keras. The interface is created with Streamlit, allowing users to interactively upload weather images and receive instant predictions.
 
+![Dataset gdrive](https://drive.google.com/drive/folders/1JUZNW_UkX7G89kDwt8-JzLBfEAouP-dw?usp=sharing)
 ---
 
 ## 📌 Overview
