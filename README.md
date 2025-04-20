@@ -80,6 +80,23 @@ To run the app locally, follow these steps:
 
 The app will open in your default browser at `http://localhost:8501`.
 
+### Deploy to Streamlit Cloud
+
+To deploy the app online using Streamlit Cloud:
+
+1. Log in to your GitHub account.
+2. Push the project to a GitHub repository if you haven't already.
+3. Visit [streamlit.io/cloud](https://streamlit.io/cloud) and sign in.
+4. Click "Create app".
+5. Choose the "Deploy a public app from GitHub" tab.
+6. Select your repository from the dropdown.
+7. Fill in the important details:
+   - Branch: `master`
+   - Main File Path: `app.py`
+8. Click "Deploy".
+
+Your app will be publicly available with a shareable URL, making it accessible to anyone online.
+
 ---
 
 ## 📁 Project Structure
