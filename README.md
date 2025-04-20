@@ -2,7 +2,6 @@
 
 This project is a simple yet effective web application that classifies weather conditions from images using a deep learning model built with TensorFlow and Keras. The interface is created with Streamlit, allowing users to interactively upload weather images and receive instant predictions.
 
-![Dataset gdrive](https://drive.google.com/drive/folders/1JUZNW_UkX7G89kDwt8-JzLBfEAouP-dw?usp=sharing)
 ---
 
 ## 📌 Overview
@@ -49,6 +48,11 @@ The model (`model.h5`) is a Convolutional Neural Network trained on a labeled da
 - **Loss Function**: Categorical Crossentropy
 - **Input Shape**: (128, 128, 3)
 - **Output Classes**: Cloudy, Rain, Sunshine, Sunrise
+
+### Dataset
+
+The model was trained using a curated dataset of weather images. You can access the dataset here:  
+[Weather Classification Dataset on Google Drive](https://drive.google.com/drive/folders/1J6YJU8_ObabkdNx2zlUonCKVi4crtzff?usp=sharing)
 
 ---
 
